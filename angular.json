@@ -3,5 +3,36 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ng-image-container": {
+      "projectType": "library",
+      "root": "projects/ng-image-container",
+      "sourceRoot": "projects/ng-image-container/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-image-container/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-image-container/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-image-container/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-image-container/src/test.ts",
+            "tsConfig": "projects/ng-image-container/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-image-container/karma.conf.js"
+          }
+        }
+      }
+    }
   }
 }

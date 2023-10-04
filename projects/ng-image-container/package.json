@@ -1,0 +1,21 @@
+{
+  "name": "@commudle/ng-image-container",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Commudle <more@commudle.com>",
+  "bugs": {
+    "url": "https://github.com/commudle/ng-image-container/issues"
+  },
+  "homepage": "https://github.com/commudle/ng-image-container#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commudle/ng-image-container.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
