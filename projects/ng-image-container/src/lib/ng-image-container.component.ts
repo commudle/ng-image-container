@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ng-image-container',
+  selector: 'ng-image-container',
   template: `
     <div
       *ngIf="src"
