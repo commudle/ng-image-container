@@ -20,6 +20,12 @@ Here's a brief overview of the available options and features of ng-image-contai
 2. [aspectRatio]: Allows you to set the aspect ratio of the image container, e.g., 16/9 for a widescreen aspect ratio.
 3. [alt]: Provides alternative text for the image for accessibility purposes.
 
+<br>
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
 ## Installation
 
 To use `ng-image-container` in your Angular project, follow these steps:
