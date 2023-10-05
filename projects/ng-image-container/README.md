@@ -22,9 +22,9 @@ Here's a brief overview of the available options and features of ng-image-contai
 
 <br>
 
-![Alt text](image.png)
+![Alt text](./assets/image.png)
 
-![Alt text](image-1.png)
+![Alt text](./assets/image-1.png)
 
 ## Installation
 
