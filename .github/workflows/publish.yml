@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: "12" # Use the desired Node.js version
+          node-version: "18" # Use the desired Node.js version
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies and build 🔧
