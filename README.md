@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<!--## Usage
+
+Here's a brief overview of the available options and features of ng-image-container:
+
+1. [src]: Specifies the source URL of the image to be displayed.
+2. [aspectRatio]: Allows you to set the aspect ratio of the image container, e.g., 16/9 for a widescreen aspect ratio.
+3. [alt]: Provides alternative text for the image for accessibility purposes.
+
+<br>
+
+![Alt text](./assets/image.png)
+
+![Alt text](./assets/image-1.png)
