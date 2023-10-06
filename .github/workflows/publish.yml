@@ -18,11 +18,11 @@ jobs:
 
       - name: Install dependencies and build 🔧
         run: |
-          npm install -g @angular/cli
+          npm install -g @angular/cli@14.2.0
           npm ci
-          ng build --prod
+          ng build --configuration production
 
       - name: Publish package on NPM 📦
-        run: npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: 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
