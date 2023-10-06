@@ -5,6 +5,9 @@
 
 The ng-image-container is an Angular component that enhances image presentation in web applications. It allows users to specify image sources, set custom aspect ratios for containers, and provide accessibility with alternative text. It automatically handles background blur when the aspect ratio doesn't match the image's aspect ratio, ensuring a visually pleasing and accessible image display. This component is easy to install and use in Angular projects, contributing to a more engaging user experience.
 
+**Demo:**
+[Preview](https://www.commudle.com/communities/cdn-commudle-developer-network/events/connectivity-and-storage-in-docker-containers)
+
 ## Table of Contents
 
 - [Usage](#usage)
@@ -19,12 +22,6 @@ Here's a brief overview of the available options and features of ng-image-contai
 1. [src]: Specifies the source URL of the image to be displayed.
 2. [aspectRatio]: Allows you to set the aspect ratio of the image container, e.g., 16/9 for a widescreen aspect ratio.
 3. [alt]: Provides alternative text for the image for accessibility purposes.
-
-<br>
-
-![Alt text](./assets/image.png)
-
-![Alt text](./assets/image-1.png)
 
 ## Installation
 
