@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
-          node-version: "14" # Use the desired Node.js version
+          node-version: "12" # Use the desired Node.js version
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies and build 🔧
@@ -25,4 +25,4 @@ jobs:
       - name: Publish package on NPM 📦
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
