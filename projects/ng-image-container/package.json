@@ -1,8 +1,17 @@
 {
   "name": "@commudle/ng-image-container",
-  "version": "1.0.2",
+  "description": "ng-image-container: Angular component for enhanced, accessible image presentation.",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Commudle <more@commudle.com>",
+  "keywords": [
+    "angular",
+    "ng",
+    "image",
+    "container",
+    "component",
+    "commudle"
+  ],
   "bugs": {
     "url": "https://github.com/commudle/ng-image-container/issues"
   },
