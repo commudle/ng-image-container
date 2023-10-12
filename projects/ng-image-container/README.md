@@ -1,6 +1,6 @@
 # ng-image-container
 
-ng-image-container: Angular component for enhanced, accessible image presentation.
+Angular component to display image of any dimension in a container of any aspect ratio to have standard looking images across your web page. Completely flexible.
 
 ![npm](https://img.shields.io/npm/v/%40commudle%2Fng-image-container?logo=npm&link=https%3A%2F%2Fgithub.com%2Fcommudle%2Fng-image-container)
 ![NPM](https://img.shields.io/npm/l/%40commudle%2Fng-image-container)
